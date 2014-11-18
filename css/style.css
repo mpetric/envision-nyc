@@ -1,0 +1,97 @@
+body {
+	font-family:'Open Sans', sans-serif;
+	font-size:16px;
+	line-height: 1.5;
+}
+
+h1 {
+	margin-top: 30px;
+	font-size: 3em;
+	font-family:'Open Sans', sans-serif;
+}
+
+#NYC {
+	font-family:'Open Sans', sans-serif;
+	font-size:1.25em;
+	font-weight: 800;
+	color:#555555;
+}
+
+.sites {
+	margin-top: 15px;
+}
+
+.imageContainer {
+	position:relative;
+}
+
+.textbox:hover {
+	opacity:1;
+}
+
+.textbox {
+	width:456px;
+	height:312px;
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:0;
+	border-radius:5px;
+	background-color: rgba(0,0,0,0.7);
+	-webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,.7);
+	box-shadow: 0px 0px 15px 2px rgba(255,255,255,.7);
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+	color:white;
+}
+
+.siteTitle {
+	padding-top: 20px;
+	padding-left: 20px;
+	font-size:1.5em;
+	font-weight:600;
+}
+
+.text {
+	padding-left: 40px;
+	padding-right: 20px;
+	font-size:.9em;
+	color:#DEDEDE;
+}
+
+img { 
+   border:3px solid #808080;
+   padding: 0px;
+   border-radius:5px;
+}
+
+.intrograph {
+	margin-bottom:10px;
+}
+
+nav {
+	position: absolute;
+	top:30px;
+	right:20px;
+}
+
+li {
+	display: inline;
+	margin-left:10px;
+}
+
+li a {
+	font-size:.8em;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+li a:hover {
+	color:#7A7A7A;
+}
+
+.footer {
+	margin-top:10px;
+	margin-bottom:30px;
+	text-align:center;
+}
